@@ -1,5 +1,5 @@
 ﻿import React from 'react';
-import './ConfirmModal.css'; // Asegúrate de tener estilos para el modal de confirmación
+import './ConfirmModal.css'; 
 
 const ConfirmModal = ({ show, onConfirm, onCancel }) => {
     if (!show) return null;
