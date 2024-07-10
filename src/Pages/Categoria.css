@@ -1,0 +1,124 @@
+.categoria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.categoria h2 {
+    flex: 1 0 100%;
+    justify-content: left;
+    text-align: left;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Noto Sans', Consolas;
+    font-weight: 700;
+    margin: 50px;
+    padding-bottom: 7px;
+}
+
+.categoria-1 h2 {
+    color: #f06565;
+}
+
+.categoria-2 h2 {
+    color: #3ea77d;
+}
+
+.categoria-3 h2 {
+    color: #882bc0;
+}
+
+.categoria-4 h2 {
+    color: #e8981d;
+}
+
+.categoria p{
+    height: 50px;
+    width: 320px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Noto Sans', Consolas;
+    font-weight: 500;
+}
+
+.videoCategoria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow-x: scroll;
+}
+
+.videoCategoria::-webkit-scrollbar {
+    display: none;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: 10px;
+}
+
+.categoria h3 {
+    color: #ffffff;
+    font-size: 32px;
+    font-family: 'Noto Sans', Consolas;
+    font-weight: 600;
+    height: 50px;
+    width: 320px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.categoria img {
+    height: 180px;
+    width: 320px;
+}
+
+.buttonCategoria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.buttonCategoria button{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Noto Sans', Consolas;
+    font-weight: 500;
+    padding: 10px;
+    background: #18181b;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.categoria-1 .buttonCategoria button {
+    border: 5px solid #f06565;
+}
+
+
+.categoria-2 .buttonCategoria button {
+    border: 5px solid #3ea77d;
+}
+
+.categoria-3 .buttonCategoria button {
+    border: 5px solid #882bc0;
+}
+
+.categoria-4 .buttonCategoria button {
+    border: 5px solid #e8981d;
+}
+
+@media (max-width: 480px) {
+    .categoria h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+}

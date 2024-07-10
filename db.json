@@ -1,0 +1,163 @@
+{
+  "categorias": [
+    {
+      "id": "1",
+      "title": "INFANTIL",
+      "videos": [
+        {
+          "id": 1,
+          "title": "BEYBLADE ES-LA Episodio 1: El cazador de blades",
+          "url": "https://youtu.be/qgqKfJkRb2w?feature=shared",
+          "description": "La historia gira en torno a los BladeBreakers. Tyson inicia su carrera de Beyblader en el torneo de su region patrocinado por la BBA en la esperanza de ser el mejor Beyblader del pais.",
+          "imagen": "https://img.youtube.com/vi/qgqKfJkRb2w/maxresdefault.jpg",
+          "editUrl": "/edit/video1",
+          "deleteUrl": "/delete/video1"
+        },
+        {
+          "id": 2,
+          "title": "BEYBLADE ES-LA Episodio 2: El día del dragón",
+          "url": "https://youtu.be/j8gVwqeKNp4?feature=shared",
+          "description": "Tyson arma su propio Beyblade con la ayuda de Kenny el Jefe, con su computadora Dizzi.",
+          "imagen": "https://img.youtube.com/vi/j8gVwqeKNp4/maxresdefault.jpg",
+          "editUrl": "/edit/video2",
+          "deleteUrl": "/delete/video2"
+        },
+        {
+          "id": 3,
+          "title": "BEYBLADE ES-LA Episodio 3: Llévalo al máximo",
+          "url": "https://youtu.be/yaHYEZCk6kQ?feature=shared",
+          "description": "Tyson y el Jefe están practicando con su Beyblade y conocen a Max, el nuevo chico del barrio quien tiene su propio estadio para entrenar.",
+          "imagen": "https://img.youtube.com/vi/yaHYEZCk6kQ/maxresdefault.jpg",
+          "editUrl": "/edit/video2",
+          "deleteUrl": "/delete/video2"
+        },
+        {
+          "id": 4,
+          "title": "BEYBLADE ES-LA Episodio 4: Comienzan las eliminatorias",
+          "url": "https://youtu.be/_T17_ZB-Pnw?feature=shared",
+          "description": "Kai, defiende su título del campeonato mundial enfrentando a muchos jugadores, mientras tanto Max pasa a la final y jefe se atreve a jugar por primera vez.",
+          "imagen": "https://img.youtube.com/vi/_T17_ZB-Pnw/maxresdefault.jpg",
+          "editUrl": "/edit/video2",
+          "deleteUrl": "/delete/video2"
+        },
+        {
+          "id": 5,
+          "title": "BEYBLADE EN Episode 5: La prueba de Draciel",
+          "url": "https://youtu.be/QWNvyRAgJZ4?feature=shared",
+          "description": "En las semifinales de Beyblade llega un inviado muy especial Rai y mientras se enfrentan Max al campeón Kai, Tyson se enfrenta a Rai.",
+          "imagen": "https://img.youtube.com/vi/QWNvyRAgJZ4/maxresdefault.jpg",
+          "editUrl": "/edit/video2",
+          "deleteUrl": "/delete/video2"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "DOCUMENTALES",
+      "videos": [
+        {
+          "id": 6,
+          "title": "Trabajos forzados en China | DW Documental",
+          "url": "https://www.youtube.com/watch?v=xAUa8DQHVQc",
+          "description": "La increíble investigación empieza cuando una mujer compra un test de embarazo en París. Dentro, hay un mensaje de un preso político chino en la que denuncia los trabajos forzados en su cárcel de China.",
+          "imagen": "https://img.youtube.com/vi/xAUa8DQHVQc/maxresdefault.jpg",
+          "editUrl": "/edit/video3",
+          "deleteUrl": "/delete/video3"
+        },
+        {
+          "id": 7,
+          "title": "Ozempic: ¿Qué se esconde detrás de 'la inyección para adelgazar'? | DW Documental",
+          "url": "https://www.youtube.com/watch?v=Hh_Map6Fnzw",
+          "description": "La llamada 'inyección para adelgazar' se promociona amplia y agresivamente en las redes sociales. Promete a los pacientes con obesidad mórbida perder peso sin esfuerzo. ¿Pero cuán eficaces son estos fármacos?",
+          "imagen": "https://img.youtube.com/vi/Hh_Map6Fnzw/maxresdefault.jpg",
+          "editUrl": "/edit/video4",
+          "deleteUrl": "/delete/video4"
+        },
+        {
+          "id": 8,
+          "title": "Mundos subterráneos de la URSS: Georgia | DW Documental",
+          "url": "https://www.youtube.com/watch?v=DjixzSsn8bU",
+          "description": "Búnkeres, túneles, cámaras de tortura. Georgia alberga numerosos pasajes secretos de la época soviética. Este país es uno de los que más estructuras subterráneas tiene. Por primera vez sale a la luz lo que lleva décadas oculto bajo tierra.",
+          "imagen": "https://img.youtube.com/vi/DjixzSsn8bU/maxresdefault.jpg",
+          "editUrl": "/edit/video4",
+          "deleteUrl": "/delete/video4"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "TERROR",
+      "videos": [
+        {
+          "id": 9,
+          "title": "LA CABRA QUE HABLA COMO NUESTROS MUERT0S (HISTORIA DE HORROR)",
+          "url": "https://www.youtube.com/watch?v=l0GCbqcG3ks",
+          "description": "Les prometo que hoy se van a encontrar grandes historias en este episodio, desde extraños encuentros en una cueva misteriosa, hasta apariciones en la habitación de los protagonistas. Desde espíritus de carretera que parecen seguir a los desafortunados que se encuentran con ellos, hasta una misteriosa cabra que camina en dos patas por las montañas asustando a quien se atreve a atraversarlas.",
+          "imagen": "https://img.youtube.com/vi/l0GCbqcG3ks/maxresdefault.jpg",
+          "editUrl": "/edit/video5",
+          "deleteUrl": "/delete/video5"
+        },
+        {
+          "id": 10,
+          "title": "EPISODIOS PERDIDOS DE RELATOS DE LA NOCHE",
+          "url": "https://www.youtube.com/watch?v=Frb061py0gw",
+          "description": "Comparte tu relato en: mirelatodelanoche@gmail.com Contacto comercial: upolch@gmail.com",
+          "imagen": "https://img.youtube.com/vi/Frb061py0gw/maxresdefault.jpg",
+          "editUrl": "/edit/video5",
+          "deleteUrl": "/delete/video5"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "COMEDIA",
+      "videos": [
+        {
+          "id": 11,
+          "title": "100 poyos dijeron 🐥 | el malakopa #41",
+          "url": "https://www.youtube.com/watch?v=JmMNH374eSM",
+          "description": "📺📺kien ganara📺📺",
+          "imagen": "https://img.youtube.com/vi/JmMNH374eSM/maxresdefault.jpg",
+          "editUrl": "/edit/video6",
+          "deleteUrl": "/delete/video6"
+        },
+        {
+          "id": 12,
+          "title": "jelou welkom tu burger kin",
+          "url": "https://www.youtube.com/watch?v=sNEH6qDFsdc",
+          "description": "jelou welkom tu burger kin",
+          "imagen": "https://img.youtube.com/vi/sNEH6qDFsdc/maxresdefault.jpg",
+          "editUrl": "/edit/video7",
+          "deleteUrl": "/delete/video7"
+        },
+        {
+          "id": 13,
+          "title": "el tigre toño 🐯 | bebos #32",
+          "url": "https://www.youtube.com/watch?v=G_KKTOBWJUQ",
+          "description": "🐯 grrrikisimo",
+          "imagen": "https://img.youtube.com/vi/G_KKTOBWJUQ/maxresdefault.jpg",
+          "editUrl": "/edit/video7",
+          "deleteUrl": "/delete/video7"
+        },
+        {
+          "id": 14,
+          "title": "los programadores",
+          "url": "https://www.youtube.com/watch?v=JVeu-oUX6bc",
+          "description": "ola.exe",
+          "imagen": "https://img.youtube.com/vi/JVeu-oUX6bc/maxresdefault.jpg",
+          "editUrl": "/edit/video7",
+          "deleteUrl": "/delete/video7"
+        },
+        {
+          "id": 15,
+          "title": "anonimus | el malakopa #28",
+          "url": "https://www.youtube.com/watch?v=U5jKNPrMne0",
+          "description": "ola soy anonimus",
+          "imagen": "https://img.youtube.com/vi/U5jKNPrMne0/maxresdefault.jpg",
+          "editUrl": "/edit/video7",
+          "deleteUrl": "/delete/video7"
+        }
+      ]
+    }
+  ]
+}
