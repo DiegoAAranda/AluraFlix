@@ -20,7 +20,7 @@ const ListaVideos = () => {
 
     const fetchData = async () => {
         try {
-            const response = await axios.get('https://my-json-server.typicode.com/DiegoAAranda/AluraFlixjson/categorias');
+            const response = await axios.get('https://668e054dbf9912d4c92c89d3.mockapi.io/categorias');
             setCategorias(response.data);
         } catch (error) {
             console.error('Error fetching categorias:', error);
@@ -34,7 +34,7 @@ const ListaVideos = () => {
             const updatedVideos = categoria.videos.filter(video => video.id !== videoId);
 
             try {
-                const response = await axios.put(`https://my-json-server.typicode.com/DiegoAAranda/AluraFlixjson/categorias/${categoriaId}`, {
+                const response = await axios.put(`https://668e054dbf9912d4c92c89d3.mockapi.io/categorias/${categoriaId}`, {
                     ...categoria,
                     videos: updatedVideos
                 });
@@ -74,7 +74,7 @@ const ListaVideos = () => {
 
     const handleAddVideo = async (newVideo, category) => {
         try {
-            const response = await axios.post(`https://my-json-server.typicode.com/DiegoAAranda/AluraFlixjson/categorias/${category.id}/videos`, newVideo);
+            const response = await axios.post(`https://668e054dbf9912d4c92c89d3.mockapi.io/categorias/${category.id}/videos`, newVideo);
             const updatedCategory = response.data;
             setCategorias(prevCategorias =>
                 prevCategorias.map(categoria =>
