@@ -34,7 +34,7 @@ const ListaVideos = () => {
             const updatedVideos = categoria.videos.filter(video => video.id !== videoId);
 
             try {
-                const response = await axios.put(`http://https://my-json-server.typicode.com/DiegoAAranda/AluraFlixjson/categorias/${categoriaId}`, {
+                const response = await axios.put(`https://my-json-server.typicode.com/DiegoAAranda/AluraFlixjson/categorias/${categoriaId}`, {
                     ...categoria,
                     videos: updatedVideos
                 });
