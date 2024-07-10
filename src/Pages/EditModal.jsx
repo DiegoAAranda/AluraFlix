@@ -9,7 +9,7 @@ const EditarModal = ({ video, onClose, onSaveVideo }) => {
     useEffect(() => {
         const fetchCategorias = async () => {
             try {
-                const response = await axios.get('https://my-json-server.typicode.com/DiegoAAranda/AluraFlixjson/categorias');
+                const response = await axios.get('https://668e054dbf9912d4c92c89d3.mockapi.io/categorias');
                 setCategorias(response.data);
                 const categoriaActual = response.data.find(cat => cat.videos.some(v => v.id === video.id));
                 if (categoriaActual) {
@@ -38,7 +38,7 @@ const EditarModal = ({ video, onClose, onSaveVideo }) => {
         const updatedVideos = categoriaActual.videos.map(v => v.id === editedVideo.id ? editedVideo : v);
 
         try {
-            const response = await axios.put(`https://my-json-server.typicode.com/DiegoAAranda/AluraFlixjson/categorias//${categoriaActual.id}`, {
+            const response = await axios.put(`https://668e054dbf9912d4c92c89d3.mockapi.io/categorias/${categoriaActual.id}`, {
                 ...categoriaActual,
                 videos: updatedVideos
             });
