@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 
 const Modal = ({ onClose, onAddVideo }) => {
@@ -28,13 +28,13 @@ const Modal = ({ onClose, onAddVideo }) => {
         };
 
         try {
-            const response = await axios.get('http://localhost:5000/categorias');
+            const response = await axios.get('https://my-json-server.typicode.com/DiegoAAranda/AluraFlixjson/categorias');
             const categorias = response.data;
 
             const categoriaIndex = categorias.findIndex(cat => cat.id === category);
             if (categoriaIndex !== -1) {
                 categorias[categoriaIndex].videos.push(nuevoVideo);
-                await axios.put(`http://localhost:5000/categorias/${category}`, categorias[categoriaIndex]);
+                await axios.put(`https://my-json-server.typicode.com/DiegoAAranda/AluraFlixjson/categorias/${category}`, categorias[categoriaIndex]);
                 onAddVideo(nuevoVideo, category); // Actualiza la lista de videos
                 onClose(); // Cierro el modal
             } else {
@@ -165,3 +165,4 @@ const styles = {
 };
 
 export default Modal;
+
