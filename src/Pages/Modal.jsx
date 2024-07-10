@@ -28,13 +28,13 @@ const Modal = ({ onClose, onAddVideo }) => {
         };
 
         try {
-            const response = await axios.get('https://my-json-server.typicode.com/DiegoAAranda/AluraFlixjson/categorias');
+            const response = await axios.get('https://668e054dbf9912d4c92c89d3.mockapi.io/categorias');
             const categorias = response.data;
 
             const categoriaIndex = categorias.findIndex(cat => cat.id === category);
             if (categoriaIndex !== -1) {
                 categorias[categoriaIndex].videos.push(nuevoVideo);
-                await axios.put(`https://my-json-server.typicode.com/DiegoAAranda/AluraFlixjson/categorias/${category}`, categorias[categoriaIndex]);
+                await axios.put(`https://668e054dbf9912d4c92c89d3.mockapi.io/categorias/${category}`, categorias[categoriaIndex]);
                 onAddVideo(nuevoVideo, category); // Actualiza la lista de videos
                 onClose(); // Cierro el modal
             } else {
