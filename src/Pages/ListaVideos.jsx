@@ -20,7 +20,7 @@ const ListaVideos = () => {
 
     const fetchData = async () => {
         try {
-            const response = await axios.get('http://localhost:5000/categorias');
+            const response = await axios.get('https://my-json-server.typicode.com/DiegoAAranda/AluraFlixjson/categorias');
             setCategorias(response.data);
         } catch (error) {
             console.error('Error fetching categorias:', error);
@@ -34,7 +34,7 @@ const ListaVideos = () => {
             const updatedVideos = categoria.videos.filter(video => video.id !== videoId);
 
             try {
-                const response = await axios.put(`http://localhost:5000/categorias/${categoriaId}`, {
+                const response = await axios.put(`http://https://my-json-server.typicode.com/DiegoAAranda/AluraFlixjson/categorias/${categoriaId}`, {
                     ...categoria,
                     videos: updatedVideos
                 });
@@ -43,7 +43,7 @@ const ListaVideos = () => {
                 console.error('Error al eliminar el video:', error);
             }
         } else {
-            console.warn(`No se encontró la categoría con ID ${categoriaId}`);
+            console.warn(`No se encontrÃ³ la categorÃ­a con ID ${categoriaId}`);
         }
 
         setShowConfirmModal(false);
@@ -51,7 +51,7 @@ const ListaVideos = () => {
     };
 
     const handleDeleteClick = (categoriaId, videoId) => {
-        console.log('Video para eliminar:', { categoriaId, videoId });  // Log para verificar los IDs de categoría y video
+        console.log('Video para eliminar:', { categoriaId, videoId });  // Log para verificar los IDs de categorÃ­a y video
         setSelectedVideo({ categoriaId, videoId });
         setShowConfirmModal(true);
     };
@@ -74,7 +74,7 @@ const ListaVideos = () => {
 
     const handleAddVideo = async (newVideo, category) => {
         try {
-            const response = await axios.post(`http://localhost:5000/categorias/${category.id}/videos`, newVideo);
+            const response = await axios.post(`https://my-json-server.typicode.com/DiegoAAranda/AluraFlixjson/categorias/${category.id}/videos`, newVideo);
             const updatedCategory = response.data;
             setCategorias(prevCategorias =>
                 prevCategorias.map(categoria =>
@@ -122,3 +122,4 @@ const ListaVideos = () => {
 };
 
 export default ListaVideos;
+
